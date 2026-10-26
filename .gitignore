@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+# Trained models and user datasets are local only
+models/
+data/
+*.joblib
+# Never commit judgments or generated reports
+uploads/
+casebrief_report_*
+.DS_Store
+.streamlit/secrets.toml

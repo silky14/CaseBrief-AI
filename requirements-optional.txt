@@ -1,0 +1,3 @@
+# Optional pretrained models (large downloads). The app runs without these.
+transformers>=4.40
+torch>=2.2
